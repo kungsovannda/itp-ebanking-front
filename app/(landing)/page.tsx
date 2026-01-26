@@ -5,17 +5,19 @@ import StatsSection from "@/components/layout/sections/pricing-section";
 import TestimonialSection from "@/components/layout/sections/testimonial-section";
 
 export default function Page() {
-  return (
-    <>
-      <HeroSection />
+    return (
+        <>
 
-      <StatsSection />
+            <HeroSection />
 
-      <PricingSection />
+            <StatsSection />
 
-      <PricingComparatorSection />
+            <PricingSection />
 
-      {/* <TestimonialSection /> */}
-    </>
-  );
+            <PricingComparatorSection />
+
+            {/* <TestimonialSection /> */}
+
+        </>
+    )
 }
