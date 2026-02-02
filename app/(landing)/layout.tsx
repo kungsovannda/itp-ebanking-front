@@ -11,5 +11,5 @@ export default function LandingLayout({
       {children}
       <FooterSection />
     </div>
-  )
+  );
 }
