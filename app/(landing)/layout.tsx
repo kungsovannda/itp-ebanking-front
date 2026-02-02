@@ -8,9 +8,8 @@ export default function LandingLayout({
 }) {
   return (
     <div>
-        <Navbar />
-        {children}
-        <FooterSection />
+      {children}
+      <FooterSection />
     </div>
   )
 }
