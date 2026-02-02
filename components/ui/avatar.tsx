@@ -47,7 +47,7 @@ function AvatarFallback({
       )}
       {...props}
     />
-  )
+  );
 }
 
 export { Avatar, AvatarImage, AvatarFallback }
